@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Best Friend 💖</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="background-glow"></canvas>
+
+    <header class="music-control">
+      <button id="music-toggle" aria-label="Toggle soft birthday piano music">
+        <span id="music-icon">▶</span>
+        <span class="label">Soft birthday piano</span>
+      </button>
+      <audio id="bg-music" loop>
+        <!-- You can replace this with your own mp3 file path -->
+        <source src="assets/music-1.mp3" type="audio/mpeg" />
+      </audio>
+    </header>
+
+    <main>
+      <!-- Landing Section -->
+      <section id="landing" class="section section-landing">
+        <div class="floating-elements">
+          <div class="balloon balloon-1"></div>
+          <div class="balloon balloon-2"></div>
+          <div class="balloon balloon-3"></div>
+          <div class="heart heart-1"></div>
+          <div class="heart heart-2"></div>
+          <div class="sparkle sparkle-1"></div>
+          <div class="sparkle sparkle-2"></div>
+          <div class="sparkle sparkle-3"></div>
+        </div>
+
+        <div class="content container">
+          <p class="eyebrow reveal-up">For my favorite Classmate</p>
+          <h1 class="main-title glow reveal-up">
+            Happy Birthday<br />
+            <span>Falak Naz 💖</span>
+          </h1>
+          <p class="subtitle reveal-up">
+            Today is all about you — your smile, your heart, your magic.
+            This is your little corner of the internet made only for you.
+          </p>
+
+          <div class="cta-buttons reveal-up">
+            <a href="#message" class="btn primary">Read My Heart</a>
+            <a href="#gallery" class="btn ghost">Walk Through Our Memories</a>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span>Scroll down</span>
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Message Section -->
+      <section id="message" class="section section-message">
+        <div class="container">
+          <h2 class="section-title glow-soft reveal-up">
+            A Letter From My Heart ✨
+          </h2>
+          <div class="message-wrapper reveal-up">
+            <div class="message-card">
+              <div class="message-inner heartbeat">
+                <p id="typewriter" class="typewriter-text"></p>
+                <span class="cursor" id="typewriter-cursor">|</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Memory Gallery -->
+      <section id="gallery" class="section section-gallery">
+        <div class="container">
+          <h2 class="section-title reveal-up">Our Little Galaxy of Memories 🌙</h2>
+          <p class="section-subtitle reveal-up">
+            Some moments from our batch — lectures, breaks, and the fun we had together.
+          </p>
+          <div class="gallery-grid">
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-1"></div>
+              <figcaption>
+                “That day we gave our presentation — a little stress, lots of laughs, and one of our best memories. 🎤”
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-2"></div>
+              <figcaption>
+                That day our whole class did the same outfit/dressing — such a fun and unforgettable vibe. 👕
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-4"></div>
+              <figcaption>
+                Our Culture Day celebration — traditional outfits, big smiles, and the best class energy. 🎭
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-8"></div>
+              <figcaption>
+                The day we spent together — it was Aptech that day. Even that simple moment felt special because it was with you. 💗
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-3"></div>
+              <figcaption>
+                The quiet moment when we followed the no-shoes trend with our classmates, and somehow realized we were each other’s safe place. 💗
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-5"></div>
+              <figcaption>
+                The day we gathered with all our classmates at the Aptech café, turning a simple moment into something special. 💗
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-6"></div>
+              <figcaption>
+                When we went to Hadiya’s house for an important reason, not knowing that this moment would stay with us forever. 💗
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-7"></div>
+              <figcaption>
+                The day we spent together on our last day at Aptech, turning the moment into something soft and unforgettable. 💗
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-9"></div>
+              <figcaption>
+                The day we gathered at the café with miss, sharing simple moments that quietly became part of our story. 💗
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal-fade">
+              <div class="img-placeholder gradient-10"></div>
+              <figcaption>
+                The day we celebrated Teachers’ Day, turning a simple moment into a memory filled with gratitude and smiles. 💗
+              </figcaption>
+            </figure>
+            
+          </div>
+        
+        </div>
+      </section>
+
+      <!-- Friendship Timeline -->
+      <section id="timeline" class="section section-timeline">
+        <div class="container">
+          <h2 class="section-title reveal-up">Our Batch Journey Together 📖</h2>
+          <div class="timeline">
+            <div class="timeline-item reveal-left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>The day we met 💫</h3>
+                <p>
+                  The first day of class — little did we know we'd become such good classmates and friends.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-right">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Best memories 💕</h3>
+                <p>
+                  From group projects to class breaks, from study sessions to fun moments —
+                  all the memories we've made together are awesome.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Our tomorrow 🤍</h3>
+                <p>
+                  I don’t know where life will take us after graduation,  
+                  but I know one thing —  
+                  I'm glad we got to be classmates and friends.
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="timeline-item reveal-left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Still choosing you 🤍</h3>
+                <p>
+                  Even as time changes and paths evolve,  
+                  I’ll always be glad we were classmates —  
+                  and I hope we stay in touch in the future.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Forever starts with us 🤍</h3>
+                <p>
+                  We started as classmates, and I hope we stay friends for life.  
+                  Here's to more memories, more laughs, and staying connected — always.
+                </p>
+              </div>
+            </div>
+            
+
+            <div class="timeline-item reveal-left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Today &amp; forever 🤍</h3>
+                <p>
+                  No matter where life takes us, I'll always remember our time as classmates — today, tomorrow, and all the good memories we made together.
+                </p>
+              </div>
+            </div>
+
+          
+         
+    
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Surprise Section -->
+      <section id="surprise" class="section section-surprise">
+        <div class="container">
+          <h2 class="section-title reveal-up">A Tiny Birthday Spell 🎁</h2>
+          <p class="section-subtitle reveal-up">
+            There’s a little surprise waiting for you. When you’re ready,
+            take a deep breath, think of a wish, and then…
+          </p>
+          <button id="surprise-button" class="btn surprise-btn reveal-up">
+            Click for a Surprise 🎁
+          </button>
+          <div id="surprise-message" class="surprise-message">
+            <div class="surprise-card glow-soft">
+              <p>
+                Confetti is temporary, but our friendship isn't.
+                Thank you for being such an awesome classmate and friend —
+                you make our batch better. You deserve all the happiness and success.
+              </p>
+              <p class="signature">Happy birthday,  falak naz. 💞</p>
+            </div>
+          </div>
+          <canvas id="confetti-canvas"></canvas>
+        </div>
+      </section>
+
+      <!-- Final Section -->
+      <section id="final" class="section section-final">
+        <div class="container">
+          <h2 class="final-text glow reveal-up">
+            Thank you for being an amazing classmate.<br />
+            Stay awesome! 🎉
+          </h2>
+          <p class="section-subtitle reveal-up">
+            This page will always be here. Whenever you need a
+            reminder of our batch memories, come back and check it out again.
+          </p>
+        </div>
+        <div class="falling-hearts">
+          <div class="heart-drop h1"></div>
+          <div class="heart-drop h2"></div>
+          <div class="heart-drop h3"></div>
+          <div class="heart-drop h4"></div>
+          <div class="heart-drop h5"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
